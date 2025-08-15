@@ -14,10 +14,10 @@ function Navbar({theme,setTheme}) {
         <div className="container px-4 mx-auto relative text-sm">
             <div className="flex justify-between items-center p-3">
 
-                <div className="flex item-center flex-shrink-0">
+                <div className="flex flex-row justify-items-center flex-shrink-0">
                     <a href="#">
-                    <img src={logo_png} alt="" className="h-10 w-10 mr-2" />
-                    <span className="text-xl tracking-tight mt-2">CodeCraft</span></a>
+                    <img src={logo_png} alt="" className="h-10 w-10 mr-2" /></a>
+                    <div className="text-xl tracking-tight mt-2">CodeCraft</div>
                 </div>
 
                 <ul className={`hidden lg:flex ml-14 space-x-12 ${theme === "light"?"text-[#1F2937]":"text-white"}`}>
@@ -27,16 +27,16 @@ function Navbar({theme,setTheme}) {
                         </li>))}
                 </ul>
                 <div className="hidden lg:flex justify-center space-x-12 items-center cursor-pointer">
-                    <div onClick={() => theme === 'light'?setTheme('dark'):setTheme('light')} className={`cursor-pointer ${theme === "light"?'hover:bg-gray-400':'hover:bg-gray-700'} rounded-full hover:scale-120 transform p-1 transition-all`}>
-                        {theme === "light"?(<MoonIcon />):(<SunIcon/>)}        
+                    <div onClick={() => theme === 'light'?setTheme('dark'):setTheme('light')} className={`cursor-pointer ${theme === "light"?'bg-gray-200':'bg-gray-800'} rounded-full  p-2`}>
+                        {theme === "light"?(<MoonIcon className='hover:hover:scale-115 transform transition-all'/>):(<SunIcon className='hover:hover:scale-115 transform transition-all'/>)}        
                     </div>       
                     <a href="#" className='py-2 px-3 border rounded-md hover:bg-gradient-to-r from-amber-500 via-orange-600 to-red-500 transition-all duration-700'>Sign In</a>
                     <a href="#" className='bg-gradient-to-r from-amber-500 via-orange-600 to-red-500 py-2 px-3 rounded-md'>Create an account</a>
                 </div>
 
                 <div className="lg:hidden md:flex flex gap-5 justify-end">
-                    <div onClick={() => theme === 'light'?setTheme('dark'):setTheme('light')} className={`cursor-pointer ${theme === "light"?'hover:bg-gray-400':'hover:bg-gray-700'} rounded-full hover:scale-120 transform p-1 transition-all`}>
-                        {theme === "light"?(<MoonIcon />):(<SunIcon/>)}        
+                    <div onClick={() => theme === 'light'?setTheme('dark'):setTheme('light')} className={`cursor-pointer ${theme === "light"?'bg-gray-200':'bg-gray-800'} rounded-full hover:scale-120 transform p-1 transition-all`}>
+                        {theme === "light"?(<MoonIcon className='hover:hover:scale-115 transform transition-all'/>):(<SunIcon className='hover:hover:scale-115 transform transition-all'/>)}        
                     </div>
                     <button className='cursor-pointer hover:scale-120 transform transition-all' onClick={toggleDrawerBtn}>{drawerOpen ? <X/>:<Menu/>}</button>
                 </div>
