@@ -1,5 +1,14 @@
 # 🎮 Tic Tac Toe Game (React)
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./screenshot1.png" width="300" />
+  <img src="./screenshot2.png" width="300" />
+</p>
+
+---
+
 A simple and fun **Tic Tac Toe Game** built using **React.js**.  
 The game allows two players to play alternately as **X** and **O**, with features like **Undo**, **Scoreboard**, and **New Game**.  
 👉 [Play it Live](https://animated-capybara-ab9e03.netlify.app/)
