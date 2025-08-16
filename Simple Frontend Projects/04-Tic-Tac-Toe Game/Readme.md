@@ -34,5 +34,3 @@ While building this project, I improved my understanding of:
 - ⚡ Writing a **clean folder structure** & using `.gitignore` for GitHub  
 
 ---
-
-## 📂 Project Structure
