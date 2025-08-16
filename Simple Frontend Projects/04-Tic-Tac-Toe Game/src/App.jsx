@@ -35,7 +35,7 @@ function App() {
         winner === 'X'?setXWinCount(count => count+1):setYWinCount(count => count+1)
       }
       })
-      CheckGameOver()
+      CheckGameOver(board)
   }
 
   function ResetPrevious(){
@@ -54,9 +54,9 @@ function App() {
     setGameOver(false)
   }
 
-  function CheckGameOver(){
+  function CheckGameOver(board){
     
-    const allFilled = arr.every(it => it === 'X' || it === 'O')
+    const allFilled = board.every(it => it === 'X' || it === 'O')
 
     console.log(allFilled)
     if(allFilled)
