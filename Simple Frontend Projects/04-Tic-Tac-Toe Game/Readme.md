@@ -2,7 +2,7 @@
 
 A simple and fun **Tic Tac Toe Game** built using **React.js**.  
 The game allows two players to play alternately as **X** and **O**, with features like **Undo**, **Scoreboard**, and **New Game**.  
-👉 [Play it Live](https://cute-mochi-be2eb7.netlify.app/)  
+👉 [Play it Live][(https://chimerical-ganache-90ea9e.netlify.app/)] 
 
 ---
 
