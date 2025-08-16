@@ -26,16 +26,21 @@ function App() {
     turn === 'X'?(setTurn('O')):setTurn('X')
   }
 
-  function checkWinner(board,winner){
-    win_pattern.map(pattern => {
-      if(board[pattern[0]] === board[pattern[1]] && board[pattern[1]] === board[pattern[2]] && board[pattern[0]] !== '')
-      {
-        console.log(`win:${turn}`)
-        setwin(winner)
-        winner === 'X'?setXWinCount(count => count+1):setYWinCount(count => count+1)
+  function checkWinner(board, winner) {
+    for (let pattern of win_pattern) {
+      if (
+        board[pattern[0]] &&
+        board[pattern[0]] === board[pattern[1]] &&
+        board[pattern[1]] === board[pattern[2]]
+      ) {
+        console.log(`win: ${winner}`);
+        setwin(winner);
+        if (winner === 'X') setXWinCount(c => c + 1);
+        else setYWinCount(c => c + 1);
+        return; // stop once a winner is found
       }
-      })
-      CheckGameOver(board)
+    }
+    CheckGameOver(board);
   }
 
   function ResetPrevious(){
@@ -54,19 +59,14 @@ function App() {
     setGameOver(false)
   }
 
-  function CheckGameOver(board){
-    
-    const allFilled = board.every(it => it === 'X' || it === 'O')
+  function CheckGameOver(board) {
+    const allFilled = board.every(it => it === 'X' || it === 'O');
 
-    console.log(allFilled)
-    if(allFilled)
-    {
-      setGameOver(true)
-      setwin('')
+    if (allFilled && !win) {   // only if no winner yet
+      setGameOver(true);
     }
+}
 
-
-  }
   return (
     <main className='app'>
       <Board arr={arr} win={win} handleClick={handleClick} ResetPrevious={ResetPrevious} NewGame={NewGame} isgameOver={isgameOver} xWinCount={xWinCount} yWinCount={yWinCount}/>
