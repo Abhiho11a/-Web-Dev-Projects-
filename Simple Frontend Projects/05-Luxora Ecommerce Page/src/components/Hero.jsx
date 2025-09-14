@@ -16,7 +16,7 @@ const Hero = () => {
           <Button label="Shop Now" imgUrl={ArrowRight}/>
           <Button label="Watch Now" align="reverse" imgUrl={Play} color="bg-white"/>
         </div>
-        <div className="flex gap-5">
+        <div className="flex flex-col lg:flex-row gap-5">
           {Boxes.map(box => (
             <div className='bg-white rounded-2xl shadow-2xl text-center p-5'>
               <h2 className='text-2xl font-bold'>{box.count}</h2>
