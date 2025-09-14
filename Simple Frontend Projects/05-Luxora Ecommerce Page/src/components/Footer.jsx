@@ -34,7 +34,7 @@ const Footer = () => {
           <span className='flex gap-2 '><MessageCircleCodeIcon className='text-purple-500'/> <p className='text-slate-400 hover:text-white cursor-pointer'>+91234567890</p></span>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col justify-between text-gray-400 text-md py-5 border-t-2 border-slate-700">
+      <div className="flex lg:flex-row flex-col gap-5 justify-between text-gray-400 text-md py-5 border-t-2 border-slate-700">
         <div>Designed By:<b>Abhishek Holla</b></div>
         <div className='flex gap-5 '>
           <a href='' className='hover:text-white' >Privacy Policy</a>
