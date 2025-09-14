@@ -2,13 +2,20 @@ import React, { useState } from 'react'
 import { Eye, Heart, HeartIcon, HeartOff, HeartPulse, ShoppingCart } from 'lucide-react'
 import Button from './Button'
 import Notification from './Notification'
-import product1 from './Images/product1.avif'
-import product2 from './Images/product2.avif'
-import product3 from './Images/product3.avif'
-import product4 from './Images/product4.avif'
-import product5 from './Images/product5.avif'
-import product6 from './Images/product6.avif'
-import product7 from './Images/product7.avif'
+import product1 from './Images/product1.png'
+import product2 from './Images/product2.png'
+import product3 from './Images/product3.png'
+import product4 from './Images/product4.png'
+import product5 from './Images/product5.png'
+import product6 from './Images/product6.png'
+import product7 from './Images/product7.png'
+import product8 from './Images/product8.png'
+import product9 from './Images/product9.png'
+import product10 from './Images/product10.png'
+import product11 from './Images/product11.png'
+import product12 from './Images/product12.png'
+import product13 from './Images/product13.png'
+import product14 from './Images/product14.png'
 
 
 const ProductCard = ({prod,handleCart}) => {
@@ -49,6 +56,20 @@ const ProductCard = ({prod,handleCart}) => {
       return product6
     else if(id === 7)
       return product7
+    else if(id === 8)
+      return product8
+    else if(id === 9)
+      return product9
+    else if(id === 10)
+      return product10
+    else if(id === 11)
+      return product11
+    else if(id === 12)
+      return product12
+    else if(id === 13)
+      return product13
+    else if(id === 14)
+      return product14
   } 
   return (
     <div className='flex flex-col  bg-gray-50 lg:max-w-[100%] md:min-w-[100%] max-w-[70%] rounded-2xl hover:shadow-2xl transition-all duration-400 border-2 border-gray-100'>
