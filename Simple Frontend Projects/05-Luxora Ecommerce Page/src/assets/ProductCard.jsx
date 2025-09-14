@@ -2,6 +2,15 @@ import React, { useState } from 'react'
 import { Eye, Heart, HeartIcon, HeartOff, HeartPulse, ShoppingCart } from 'lucide-react'
 import Button from './Button'
 import Notification from './Notification'
+import product1 from './Images/product1.avif'
+import product2 from './Images/product2.avif'
+import product3 from './Images/product3.avif'
+import product4 from './Images/product4.avif'
+import product5 from './Images/product5.avif'
+import product6 from './Images/product6.avif'
+import product7 from './Images/product7.avif'
+
+
 const ProductCard = ({prod,handleCart}) => {
   const [fav,setFav] = useState(prod.fav)
   const [showNotification,setShowNotification] = useState(false)
@@ -25,14 +34,29 @@ const ProductCard = ({prod,handleCart}) => {
     setNotificationMsg('')
   },3000)
 
-  
+  function imgtag(id){
+    if(id === 1)
+      return product1
+    else if(id === 2)
+      return product2
+    else if(id === 3)
+      return product3
+    else if(id === 4)
+      return product4
+    else if(id === 5)
+      return product5
+    else if(id === 6)
+      return product6
+    else if(id === 7)
+      return product7
+  } 
   return (
     <div className='flex flex-col  bg-gray-50 lg:max-w-[100%] md:min-w-[100%] max-w-[70%] rounded-2xl hover:shadow-2xl transition-all duration-400 border-2 border-gray-100'>
         <div className='flex relative'>
           <div className='relative group overflow-hidden w-full rounded-t-2xl'>
-            <img src={`src/assets/Images/product${prod.id}.avif`} alt="product img" className=' transition-transform group-hover:scale-102 object-cover' width={500} height={100}/>
+            <img src={imgtag(prod.id)} alt="product img" className=' transition-transform group-hover:scale-102 object-cover' width={500} height={100}/>
 
-            <div className="opacity-0 group-hover:opacity-100 transition-all duration-600">
+            <div className="opacity-100 lg:opacity-0 group-hover:opacity-100 transition-all duration-600">
               <div className='flex flex-col gap-3 right-5 top-5 absolute z-10'>
                   {fav ?
                   <Heart fill='red' onClick={() => handleFav()} className='bg-white rounded-full p-2 size-8 cursor-pointer'/>:
