@@ -11,11 +11,11 @@ const Subscribe = () => {
       <h2 className='text-3xl font-bold mb-3'>Stay in the Loop</h2>
       <p className='text-wrap'>Be the first to know about new collections, exclusive offers, and style tips. Join our community of fashion enthusiasts.</p>
       </div>
-      <div className="flex gap-5 ">
-        <input type="text" placeholder='Enter your email address' className='bg-white rounded-xl text-gray-500 outline-none px-5'/>
-        <Button label="Subscribe" color="bg-white" padx="10" txtColor="text-purple-700" hover="hover:bg-gradient-to-br hover:from-purple-600 hover:via-pink-400 hover:to-orange-500 hover:text-white"/>
+      <div className="flex gap-5 lg:flex-row items-center">
+        <input type="text" placeholder='Enter your email address' className='bg-white rounded-xl text-gray-500 outline-none p-3'/>
+        <Button label="Subscribe" color="bg-white" padx="2" txtColor="text-purple-700" hover="hover:bg-gradient-to-br hover:from-purple-600 hover:via-pink-400 hover:to-orange-500 hover:text-white"/>
       </div>
-      <ol className='grid lg:grid-cols-4 grid-cols-2 gap-10'>
+      <ol className='grid lg:grid-cols-4 grid-cols-2 gap-10 '>
         {SubscribeList.map(it => (
           <li className='list-disc'>{it}</li>
         ))}
