@@ -1,12 +1,38 @@
-# React + Vite
+# 🛍 Luxora – Premium Fashion Ecommerce Page  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive ecommerce landing page built with **React** and **Vite**. This project showcases a sleek UI, smooth navigation, and reusable components for a professional shopping experience.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+- ✨ Beautiful, responsive landing page design  
+- 🛒 Shop, Collections, About, and Contact sections  
+- 🎨 Styled using Tailwind CSS for fast and clean UI  
+- 📱 Fully mobile-friendly layout  
+- 🔍 Interactive icons (search, user profile, and cart badge)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Tech Stack  
+- **React + Vite**  
+- **Tailwind CSS**  
+- **JavaScript (ES6)**  
+- **Git & GitHub** for version control  
+
+---
+
+## 📸 Preview  
+![Luxora Screenshot](./screenshot.png)  
+*(Add the screenshot you took as `screenshot.png` in your repo root.)*  
+🌐 **Live Demo:** [View the full page here](https://luxora-web.netlify.app)  
+
+
+---
+
+## ⚡ Getting Started  
+
+### 1️⃣ Clone the repository  
+```bash
+git clone https://github.com/abhiho11a/-Web-Dev-Projects-.git
+cd Simple Frontend Projects
+cd 05-Luxora Ecommerce Page
