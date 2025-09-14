@@ -5,7 +5,7 @@ import '../App.css'
 const Navbar = ({cartCount}) => {
     const [viewSection,setViewSection] = useState('Shop')
   return (
-    <header className='fixed z-20 backdrop-blur-lg bg-white/80 flex items-center justify-between shadow-2xl  px-10 lg:px-24 py-7 w-full' id='navbar'>
+    <header className='fixed z-1000 backdrop-blur-lg bg-white/80 flex items-center justify-between shadow-2xl  px-10 lg:px-24 py-7 w-full' id='navbar'>
         <a className='font-bold text-3xl' href='#'>Luxora</a>
         <div className='hidden lg:inline-block'>
             <ul className='flex gap-10 text-xl'>
