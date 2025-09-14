@@ -20,7 +20,7 @@ const About = () => {
         ))}
       </div>
       <div className=' flex flex-col justify-center items-center gap-10 bg-white rounded-2xl shadow-2xl shadow-gray-200 p-10'>
-        <div><h2 className='text-3xl font-bold'>Trusted By Thousands</h2>
+        <div><h2 className='text-3xl font-bold text-center'>Trusted By Thousands</h2>
         <p className='text-slate-500 text-center'>Our numbers speak for themselves</p>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 w-full justify-around">
@@ -41,7 +41,7 @@ const About = () => {
           <Star className='text-yellow-400 fill-amber-400'/>
           <Star className='text-yellow-400 fill-amber-400'/>
         </span>
-        <h2 className='text-3xl text-white font-bold'>Ready to Experience Premium Quality?</h2>
+        <h2 className='text-3xl text-white font-bold text-center'>Ready to Experience Premium Quality?</h2>
         <p className='text-xl text-slate-200 text-center'>Join thousands of satisfied customers who trust Luxora for their fashion <br /> needs</p>
         </div>
         <div className="flex gap-5 lg:flex-row md:flex-row flex-col">
