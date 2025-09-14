@@ -23,7 +23,6 @@ A modern and responsive ecommerce landing page built with **React** and **Vite**
 
 ## 📸 Preview  
 ![Luxora Screenshot](./screenshot.png)  
-*(Add the screenshot you took as `screenshot.png` in your repo root.)*  
 🌐 **Live Demo:** [View the full page here](https://luxora-web.netlify.app)  
 
 
