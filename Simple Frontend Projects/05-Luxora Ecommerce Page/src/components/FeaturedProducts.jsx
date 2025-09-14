@@ -45,7 +45,7 @@ const FeaturedProducts = ({setCartCount}) => {
           <input type="text" value={searchedProd} onChange={(e) => setSearchedProd(e.target.value)} placeholder='Search Products...' className='border-none outline-none w-full'/>
           <X onClick={() => setSearchedProd('')} className='cursor-pointer hover:bg-gray-200'/>
         </div>
-        <div className='flex flex-wrap flex-1/2 items-center gap-3 mt-5 lg:mt-0 m justify-end'>
+        <div className='flex flex-wrap flex-1/2 items-center gap-3 mt-5 lg:mt-0 m justify-center lg:justify-end'>
           <FilterIcon className='text-slate-700 '/>
           {FilterButtons.map(btn => (
             <div onClick={() => setBtnActive(btn.label)}>
