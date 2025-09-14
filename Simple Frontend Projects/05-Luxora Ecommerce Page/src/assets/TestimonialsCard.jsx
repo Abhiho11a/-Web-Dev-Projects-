@@ -14,7 +14,7 @@ const TestimonialsCard = ({card}) => {
         <div className="flex flex-col items-center">
             <h2 className="text-gray-500 text-left">{card.content}</h2>
         </div>
-        <div className="flex justify-center items-center gap-5">
+        <div className="flex justify-center justify-self-start items-center gap-5">
             <img src={profileImg} alt={card.name} className='rounded-full' width={60} height={60}/>
             <div className='flex flex-col text-left'>
                 <h2 className='font-black'>{card.name}</h2>
