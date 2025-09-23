@@ -8,6 +8,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Reviews from './components/Reviews'
 import Subscribe from './components/Subscribe'
+import ScrollToTopButton from "./assets/Scrolltotop";
 
 function App() {
   const [cartCount,setCartCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
     <Reviews/>
     <Subscribe/>
     <Footer/>
+    <ScrollToTopButton/>
     </main>
   )
 }
