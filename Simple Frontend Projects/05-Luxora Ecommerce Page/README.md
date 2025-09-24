@@ -33,5 +33,6 @@ A modern and responsive ecommerce landing page built with **React** and **Vite**
 ### 1️⃣ Clone the repository  
 ```bash
 git clone https://github.com/abhiho11a/-Web-Dev-Projects-.git
+cd -Web-Dev-Projects-
 cd Simple Frontend Projects
 cd 05-Luxora Ecommerce Page

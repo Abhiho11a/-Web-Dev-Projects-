@@ -26,7 +26,7 @@ const About = () => {
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 w-full justify-around">
           {SalesData.map(data => (
             <div className='flex justify-center items-center '>
-              <span className='mt-5'><h2 className='text-4xl font-bold text-center '>{data.count}</h2>
+              <span className='mt-5'><h2 className='text-2xl lg:text-4xl font-bold text-center '>{data.count}</h2>
               <p className='text-sm text-slate-500 text-center'>{data.label}</p></span>
             </div>
           ))}

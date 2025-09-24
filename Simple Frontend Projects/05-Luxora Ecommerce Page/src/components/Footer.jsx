@@ -15,7 +15,7 @@ const Footer = () => {
             
           </div>
         </div>
-        <div className='flex flex-1/4 lg:gap-50 gap-20 items-center  py-10'>
+        <div className='flex flex-1/4 lg:gap-50 gap-20 items-center py-10'>
           {FooterLinks.map(it => (
             <div>
               <h2 className='text-white font-semibold'>{it.label}</h2>
@@ -35,8 +35,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex lg:flex-row flex-col gap-5 justify-between text-gray-400 text-md py-5 border-t-2 border-slate-700">
-        <div>Designed By:<b>Abhishek Holla</b></div>
-        <div className='flex gap-5 '>
+        <div className='text-xs lg:text-sm md:text-sm'>Designed By:<b>Abhishek Holla</b></div>
+        <div className='flex gap-5 text-xs lg:text-sm md:text-sm'>
           <a href='' className='hover:text-white' >Privacy Policy</a>
           <a href='' className='hover:text-white'>Terms of Service</a>
           <a href='' className='hover:text-white'>Cookie Policy</a>

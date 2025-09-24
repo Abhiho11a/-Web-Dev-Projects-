@@ -25,9 +25,9 @@ const Reviews = () => {
         </div>
         <div className="flex bg-gray-50 p-5 rounded-2xl border-gray-200 border-2">
             {ReviewData.map(data => (
-                <div className='border-r-2 px-5  border-gray-400 last:border-0'>
-                    <h2 className='font-bold text-2xl'>{data.count}</h2>
-                    <p className='text-gray-500 text-sm font-bold'>{data.label}</p>
+                <div className='border-r-2 px-5 border-gray-400 last:border-0'>
+                    <h2 className='font-bold text-xl lg:text-2xl'>{data.count}</h2>
+                    <p className='text-gray-500 text-xs font-bold'>{data.label}</p>
                 </div>
             ))}
         </div> </>}       

@@ -18,7 +18,7 @@ const ReviewForm = ({closeForm}) => {
     }
 
   return (
-<div className="max-w-md mx-auto bg-white p-6 px-15 border-2 border-neutral-200 rounded-2xl shadow-lg flex flex-col gap-5">
+<div className="max-w-md mx-auto bg-white p-11 border-2 border-neutral-200 rounded-2xl shadow-lg flex  flex-col gap-5">
     <X onClick={closeForm} className="ml-50 cursor-pointer"/>
       <input
         type="text"

@@ -5,7 +5,7 @@ import Hero_img from '../assets/Images/Hero-img.avif'
 import { Boxes } from '../assets'
 const Hero = () => {
   return (
-    <section className='flex flex-col justify-between lg:flex-row items-center px-10 lg:px-24 min-h-screen bg-pink-50'>
+    <section className='flex flex-col lg:flex-row gap-15 lg:gap-15 items-center px-10 lg:px-24 min-h-screen bg-pink-50'>
       <div className="flex flex-1 flex-col gap-10 mt-30 items-center lg:items-start">
         <div className='flex flex-col lg:items-start items-center'>
           <div><h2 className='font-bold text-5xl lg:text-6xl'>Discover Your <br /> <span className='bg-gradient-to-r from-purple-700 to-pink-600 text-transparent bg-clip-text'>Perfect Style</span></h2></div>
@@ -23,9 +23,6 @@ const Hero = () => {
               <p className='text-wrap text-gray-800 font-semibold'>{box.label}</p>
             </div>
           ))}
-        </div>
-        <div className='flex'>
-
         </div>
       </div>
       <div className='flex-1 flex items-center justify-center'>
