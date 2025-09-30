@@ -1,0 +1,70 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.app>.board{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.app>.board>.container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 5px;
+}
+.app>.board>.container>.row1,.row2,.row3{
+  display: flex;
+  gap: 5px;
+}
+.app>.board>.container .boxes{
+  background-color: hsl(240, 77%, 64%);
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 3em;
+  outline: none;
+  border: none;
+  color: black;
+
+  &:hover{
+      background-color: hsl(240, 77%, 74%);
+  }
+}
+.app>.board>.container .boxes.disabled{
+  background-color: hsl(240, 77%, 74%);
+}
+.btn-container{
+  display: flex;
+  margin: auto;
+  gap: 50px;
+  margin-top: 40px;
+}
+.btn-container button{
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+}
+.btn-container .undo{
+  background-color: hsl(0, 100%, 50%);
+
+  &:hover{
+   background-color: hsl(0, 100%, 40%);
+  }
+}
+.btn-container .undo.disabled{
+  background-color: hsl(0, 100%, 40%);
+}
+.btn-container .newGame{
+  background-color: hsl(120, 100%, 25%);
+
+  &:hover{
+  background-color: hsl(120, 100%, 15%);
+  }
+}
