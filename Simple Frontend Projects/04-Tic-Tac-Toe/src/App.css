@@ -6,8 +6,30 @@
 .app>.board{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
 }
+.app>.board>.game-type{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.app>.board>.game-type button{
+  background-color: rgb(246, 244, 243);
+  border: 2px solid rgb(182, 178, 178) ;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.app>.board>.game-type button.selected,.app>.board>.game-type button:hover{
+  border: 2px solid purple;
+  transition: all ease-in-out 400ms;
+}
+.app>.board>.game-type button.disabled{
+  border: none;
+  cursor: no-drop;
+}
+
 .app>.board>.container{
   display: flex;
   flex-direction: column;
@@ -36,11 +58,30 @@
 .app>.board>.container .boxes.disabled{
   background-color: hsl(240, 77%, 74%);
 }
+
+.score-container{
+  display: flex;
+  margin: auto;
+  gap: 20px;
+}
+.score-container>.card{
+  background-color: rgb(136, 164, 240);
+  padding: 5px 25px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold
+}
+.score-container>.card.X{
+  color:#ff007f ;
+}
+.score-container>.card.Y{
+  color: #00ffcc;
+}
+
 .btn-container{
   display: flex;
   margin: auto;
   gap: 50px;
-  margin-top: 40px;
 }
 .btn-container button{
   border: none;
@@ -58,9 +99,11 @@
    background-color: hsl(0, 100%, 40%);
   }
 }
-.btn-container .undo.disabled{
+.undo.disabled{
   background-color: hsl(0, 100%, 40%);
+  cursor: no-drop;
 }
+
 .btn-container .newGame{
   background-color: hsl(120, 100%, 25%);
 
