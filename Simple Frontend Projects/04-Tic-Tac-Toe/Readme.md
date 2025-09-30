@@ -34,12 +34,12 @@ Deployed on **Netlify** 👉 [Play Here](https://luxury-fudge-2d77c5.netlify.app
 
 While building this project, I learned:
 
--⚡How to use **React Hooks** (`useState`) to manage game state.
--⚡Implementing **conditional rendering** for UI updates (winner, game over, disabling buttons).
--⚡Creating **reusable helper functions** (e.g., checking winner, tie, empty spots).
--⚡Understanding and applying the **Minimax algorithm** in a real project.
--⚡Handling **user interactions** (undo, reset, switching between single/double player modes).
--⚡Deploying a React project to **Netlify**.
+-⚡How to use **React Hooks** (`useState`) to manage game state.</br>
+-⚡Implementing **conditional rendering** for UI updates (winner, game over, disabling buttons).</br>
+-⚡Creating **reusable helper functions** (e.g., checking winner, tie, empty spots).</br>
+-⚡Understanding and applying the **Minimax algorithm** in a real project.</br>
+-⚡Handling **user interactions** (undo, reset, switching between single/double player modes).</br>
+-⚡Deploying a React project to **Netlify**.</br>
 
 ---
 
