@@ -4,11 +4,11 @@ A fun and interactive **Tic Tac Toe game** built with **React JS**, featuring bo
 Deployed on **Netlify** 👉 [Play Here](https://luxury-fudge-2d77c5.netlify.app/)
 
 ---
-
+<p align="center">
 <img src="./screenshot1.png" alt="Screenshot1" width="300"/>
 <img src="./screenshot2.png" alt="Screenshot2" width="300"/>
 <img src="./screenshot3.png" alt="Screenshot3" width="300"/>
-
+</p>
 ---
 
 ## ✨ Features
