@@ -1,34 +1,44 @@
-# Password DigiLocker
+# 🔐 Password DigiLocker – Secure Password Manager  
 
-A secure and interactive web application to store and manage your passwords safely.
-[Check out the live demo](https://roaring-longma-8f8c87.netlify.app/)
+A secure and interactive web application to store and manage your passwords safely. This project provides a clean UI, easy password management, and persistent storage using localStorage.  
 
+---
+
+## 📸 Preview  
 ### Login Page
-![Login Page](./screenshot-1.png)
+![Login Page](./screenshot-1/login.png)
 
 ### Dashboard
-![Dashboard](./screenshot-2.png)
+![Dashboard](./screenshot-2/dashboard.png)
 
 
-## 🔐 Features
+🌐 **Live Demo:** [View the live app here](https://roaring-longma-8f8c87.netlify.app/)  
 
-- User SignUp and Login with validation
-- Add and delete credentials for websites
-- Passwords are partially hidden for security
-- Copy passwords to clipboard with a click
-- Persistent data using localStorage
-- Responsive and user-friendly design with Tailwind CSS
+---
 
-## 🛠 Tech Stack
+## 🚀 Features  
+- ✨ User SignUp and Login with validation  
+- 🗂 Add and delete credentials for websites  
+- 🔒 Passwords are partially hidden for security  
+- 📋 Copy passwords to clipboard with a click  
+- 💾 Persistent data using localStorage  
+- 📱 Fully responsive and mobile-friendly design  
 
-- Frontend: React.js, Tailwind CSS
-- State Management: React useState & useEffect
-- Icons: Lucide React
-- Data Storage: localStorage
+---
 
-## 🚀 Getting Started
+## 🧰 Tech Stack  
+- **React.js**  
+- **Tailwind CSS**  
+- **JavaScript (ES6)**  
+- **localStorage** for data persistence  
+- **Lucide React** icons  
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Abhiho11a/-Web-Dev-Projects-.git
+---
+
+## ⚡ Getting Started  
+
+### 1️⃣ Clone the repository  
+```bash
+ git clone https://github.com/Abhiho11a/-Web-Dev-Projects-.git
    cd React Password Vault
+
