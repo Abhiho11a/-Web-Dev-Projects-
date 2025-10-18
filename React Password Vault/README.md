@@ -7,7 +7,7 @@ A secure and interactive web application to store and manage your passwords safe
 ![Login Page](./screenshot-1.png)
 
 ### Dashboard
-![Dashboard](./screenshots-2.png)
+![Dashboard](./screenshot-2.png)
 
 
 ## 🔐 Features
