@@ -1,12 +1,34 @@
-# React + Vite
+# Password DigiLocker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A secure and interactive web application to store and manage your passwords safely.
+[Check out the live demo](https://roaring-longma-8f8c87.netlify.app/)
 
-Currently, two official plugins are available:
+### Login Page
+![Login Page](./screenshot-1.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Dashboard
+![Dashboard](./screenshots-2.png)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔐 Features
+
+- User SignUp and Login with validation
+- Add and delete credentials for websites
+- Passwords are partially hidden for security
+- Copy passwords to clipboard with a click
+- Persistent data using localStorage
+- Responsive and user-friendly design with Tailwind CSS
+
+## 🛠 Tech Stack
+
+- Frontend: React.js, Tailwind CSS
+- State Management: React useState & useEffect
+- Icons: Lucide React
+- Data Storage: localStorage
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Abhiho11a/-Web-Dev-Projects-.git
+   cd React Password Vault
