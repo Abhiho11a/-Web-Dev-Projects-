@@ -6,10 +6,10 @@ A secure and interactive web application to store and manage your passwords safe
 
 ## 📸 Preview  
 ### Login Page
-![Login Page](./screenshot-1/login.png)
+![Login Page](./screenshot-1.png)
 
 ### Dashboard
-![Dashboard](./screenshot-2/dashboard.png)
+![Dashboard](./screenshot-2.png)
 
 
 🌐 **Live Demo:** [View the live app here](https://roaring-longma-8f8c87.netlify.app/)  
